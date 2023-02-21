@@ -85,3 +85,14 @@ Outputs take the form of "key: value", with keys:
   max_TEPS
   harmonic_mean_TEPS
   harmonic_stddev_TEPS
+
+
+Example:
+By default, the makefile is configured to build only OpenMP.
+
+Just type `make` to build it.
+Then, sample command is as follows:
+
+./omp-csr/omp-csr -s 24 -e 256
+
+Where s is scale factor, e is edge factor.
